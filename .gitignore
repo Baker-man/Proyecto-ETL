@@ -1,6 +1,12 @@
 # Prerequisites
 *.d
 
+#csvs orginales
+2019_Accidentalidad.csv
+2020_Accidentalidad.csv
+2021_Accidentalidad.csv
+2022_Accidentalidad.csv
+
 # Object files
 *.o
 *.ko

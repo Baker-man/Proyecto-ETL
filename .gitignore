@@ -1,11 +1,11 @@
 # Prerequisites
 *.d
 
-#csvs orginales
-2019_Accidentalidad.csv
-2020_Accidentalidad.csv
-2021_Accidentalidad.csv
-2022_Accidentalidad.csv
+#xlsx orginales
+2019_Accidentalidad.xlsx
+2020_Accidentalidad.xlsx
+2021_Accidentalidad.xlsx
+2022_Accidentalidad.xlsx
 
 # Object files
 *.o

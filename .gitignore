@@ -7,6 +7,9 @@
 2021_Accidentalidad.xlsx
 2022_Accidentalidad.xlsx
 
+#contraseñas
+password.txt
+
 # Object files
 *.o
 *.ko

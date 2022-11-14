@@ -62,11 +62,13 @@ Una vez extraídos los datos y convertidos a los dataframes pertinentes, se ha p
      
      - Como anteriormente supusimos que los nulos en positivos en droga serían negativos porque se habrían hecho ambas pruebas, en este caso, si no tengo datos de positividad en alcohol, voy a rellenarlos como negativos.
      
-   - Se ha cambiado la disposición de la columna fecha de D-M-A a A-M-D y se han creado tres nuevas columnas de Año, Mes y Día.
+   - Se ha cambiado la disposición de la columna fecha de D-M-A a A-M-D y se han creado tres nuevas columnas de Año, Mes y Día que se han convertido a tipo integer.
    
    - Se han creado dos nuevas columnas con latitud y longitud a partir de las columnas de coordenadas porque están en UTM. Se ha utilizado la librería pyproj. A continuación se han eliminado las dos columnas originales de 'coordenadas_x_utm' y 'coordenadas_y_utm'.
    
    - Por último, se ha decidido eliminar la columna 'cod_lesividad' porque las lesividades vamos a analizarlas por su nombre/tipo.
+   
+   - Se ha creado una nueva columna 'id' para poder usarla como primary key y para evitar confusión con algunos duplicados existentes que realmente no lo eran.
    
 **3) Carga de datos en MySQL**
 
